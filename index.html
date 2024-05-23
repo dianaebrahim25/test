@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Diana Ebrahim</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+html {
+    scroll-behavior:smooth;
+}
+.navbar {
+  display:flex;
+  align-items: center;
+  padding:1px;
+  position:fixed;
+  top:-0px;
+  width:90%;
+  margin-top:10px;
+  margin-right:5px;
+   justify-content: space-between;
+   margin-left:5px;
+  
+  
+  
+  
+  
+ } 
+ .navbar a{
+     
+      font-size:25px;
+      color:white;
+      display:inline-block;
+      margin-left:0px;
+      padding-left:5px;
+      width:130px;
+      height:50px;
+      padding-top:0px;
+      font-weight:bold;
+      text-decoration:none;
+      margin-right:0px;
+      
+      
+}
+
+.logo {
+  height:50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+body{
+    
+    background-image: url("/storage/emulated/0/Android/Screenshot_20240514_181232.jpg "); 
+    
+}
+
+
+.about-img img{
+width:200px;
+border-radius:50%;
+margin-right:50px;
+position:relative;
+top:-150px;
+
+}
+.about img{
+height:200px;
+width:200px;
+border-radius:50%;
+margin-left:280%;
+position:relative;
+top:-250px;
+} 
+.about{
+display:flex;
+justify-content:right;
+align-items:center;
+gap:2rem;
+background:var(--second-bg-color);
+
+}
+.home-content h2{
+text-align:left;
+line-height:1.9rem;
+margin-top:150px;
+color:white;
+font-size:50px;
+}
+.home-content h4{
+font-size:20px;
+margin-right:50%;
+top:-20px;
+color:white;
+margin-top:10px;
+
+}
+button{
+       border-style:none;
+       padding:3px;
+       border-radius:50px;
+       color:white;
+       background-color:blue;
+       margin-left:5px;
+       margin:2px;
+       width:100px;
+       height:40px;
+       transition-properly:width;
+       transition-duration:1s;
+       font-size:20px;
+       padding-bottom:5px;
+      } 
+      button:hover{
+          background-color:lightblue;
+          color:white;
+          box-shadow:0px 15px 20px lightblue
+          tranform:translateY(-7px);
+      }
+      button::active{
+      transform:scale(0.9) rotate(3deg);
+      transition:0.5s;
+          
+      }
+ .logo{
+       font-size:15px;
+       font-variant:small-capps;
+       color:white;
+       margin-top:0;
+       font-weight:bold;
+       margin-left:0px;
+       text-align:left;
+       text-decoration:none;
+       top:-100px;
+     
+      }
+     .main-image{
+         position:relative;
+         width:100px;
+         padding-left:500px;
+         top:-230px;
+         height:200px;
+         border-radius:50%;
+         margin-right:20px;
+         
+         
+     }
+    .main-image .image-card img{
+        width:200px;
+        height:200px;
+        border-radius:50%;
+        border:5px solid #fff;
+        margin-left:200px;
+        top:-180px;
+        margin-bottom:50px;
+        
+    }
+   .main-text span{
+       display:block;
+       font-size:20px;
+       color:white;
+       text-transform:uppercase;
+       padding-left:20px;
+       font-weight:bold;
+       margin-top:1px;
+       top:-52px;
+   }
+  #main p1{
+      color:white;
+      margin-top:1px;
+      font-size:1.2rem;
+      margin-right:40%;
+      top:-10px;
+    
+  }
+   .main-text h1{
+     color:white;
+     font-size:20px;
+     margin-top:1px;
+ }
+  #contact {
+    padding:2rem;
+    }
+    
+    #contact h2 {
+    font-size:2.5rem;
+    margin-bottom:1rem;
+    color:white;
+    }
+    
+    #contact form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:-1rem;
+    }
+    
+    #contact label {
+    flex-basis:100%;
+    margin-bottom:1rem;
+    font-size:2rem;
+    color:white;
+    
+    
+    }
+    
+    #contact input,
+    #contact textarea {
+    flex-basis:100%;
+    margin-bottom:2rem;
+    padding:1.5rem;
+    border:1px solid #ccc;
+    font-size:1rem;
+    color:white;
+    }
+    
+    #contact input[type="submit"] {
+    flex-basis:100%;
+    background-color:#333;
+    color:#fff;
+    padding:1.5rem;
+    border:none;
+    cursor:pointer;
+    
+    
+
+}
+  .header{
+       position:fixed;
+       top:0;
+       left:0;
+       width:100%;
+       padding:20px;
+       display:relative;
+       align-itmes:center;
+       justify-content:space-between;
+       z-index:100;
+       top:-0;
+       margin-left:1px;
+       border:solid;
+       border:none;
+       height:15px;
+       background-color:Gray;
+       
+          
+  }
+  a:hover{
+      color:red;
+      text-decoration:underline solid;
+      transition:1s;
+  }
+
+   .home-content h1{
+       color:green;
+       Font-size:25px;
+       font-weight:bold;
+       margin-top:20px;
+   }
+  .home-content h3{
+      color:white;
+      font-size:40px;
+  }
+   .service-content{
+           display:flex;
+           justify-content:center;
+           align-items:center;
+           flex-wrap:wrap;
+           gap:2rem;
+       }
+       .service-content .service-box{
+       flex:.1. 1.1rem;
+       background:var(--second-bg-color--);
+       padding:.1rem.1rem.1rem;
+       border-radius:1rem;
+       text-align:center;
+       border:5px solid white;
+       transition:.5s ease;
+       background:orange;
+       
+           
+       }
+       .service-content .service-box:hover{
+           transform:scale(1.02);
+       }
+      .service-box i{
+          font-size:3rem;
+      }
+       .service-box h3{
+           font-size:1rem;
+           color:white;
+           
+       } 
+      .service-box p{
+          font-size:15px;
+          text-align:center;
+          justify-content:center;
+          margin-right:10px;
+          margin-left:10px;
+          color:white;
+      }
+     .btn{
+         display:inline-block;
+         padding:5px 20px;
+         border-radius:50%;
+         box-shadow:0 0 1rem;
+         font-size:5px;
+         margin-bottom:15px;
+         color:white;
+         text-decoration:none;
+         background:red;
+         
+         
+         
+         
+     }
+    .heading{
+        font-size:3rem;
+        
+   
+   
+   }
+    .contact form .input-box{
+        display:flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+        
+    }
+         .contact form .input-box input, 
+        .contact form textarea{
+            width:30px;
+            padding:.1.5rem;
+            font-size:.1.6rem;
+            border-radius:.8rem;
+            margin:.1rem 0;
+            margin-left:80px;
+            height:5px;
+            background:black;
+       
+        } 
+        .heading{
+            text-align:center;
+            font-size:2.5rem;
+            color:white;
+        }
+     .contact form .btn{
+         margin-top:.1rem;
+         cursor:pointer;
+         width:1px;
+         height:10px;
+        } 
+         
+     
+         #button{
+             color:red;
+             background:orange;
+             
+         }
+              .testimonials{
+           padding:40px 0;
+           
+    background-image: url("/storage/emulated/0/Android/Screenshot_20240514_181232.jpg "); 
+           color:black;
+           text-align:center;
+       }
+       .inner{
+           max-width:1200px;
+          margin:auto;
+          overflow:hidden;
+          padding:0;
+          
+       }
+      .border{
+          width:160px;
+          height:5px;
+          background:#6ab04;
+          margin:26px auto;
+      }
+      .row{
+          display:flex;
+          flex-wrap:wrap;
+          justify-content:center;
+      }
+       .col{
+           flex:33.33%;
+           max-width:33.33%;
+           box-sizing:border box;
+           padding:15px;
+       }
+     .testimonial{
+         background:white;
+         padding:30px;
+         
+     }
+       .testimonial img{
+           width:100px;
+           height:100px;
+           border-radius:50%;
+           
+       }
+       .name{
+           font-size:20px;
+           margin:20px;
+       }
+            
+           
+       .star{
+           color:gold;
+       }
+     h5{
+    color:white;
+    font-size:20px;
+   } 
+ 
+#button{
+    width:50px;
+    color:red;
+}
+#btn1{
+    width:100px;
+    height:60px
+    text-align:center;
+    margin-left:45%;
+    border-radius:50px;
+}
+.button:hover{
+    color:white;
+    transition:1s;
+}
+</style>
+
+
+
+</head>
+<body>
+
+
+
+
+<header class="header">
+  <nav class="navbar">
+    <div class="logo">
+      <h2 class="logo-heading">Portfolio</h2>
+   
+    </div>
+     <div class="menu">
+      <ul class="menu-list">
+    
+          <a href="#home">Home</a>         
+          <a href="#about">About</a>  
+          <a href="#skills">Skills</a>   
+          <a href="#contact">Contact</a>
+          
+         </header> 
+<section id="home">
+<div class="home-content">
+<h2>Hey, it's <span> Me</span></h2>
+<h3>Ebrahim Diana</h3>
+<h1>Front end developer </h1>
+<h4>This is my personal portfolio hope you like it, enjoy.</h4>
+<button>hire me</button>
+<button>Contact</button>
+</section>
+    <section class="about"id="about">
+<div class="about-img">
+<img src="/storage/emulated/0/Android/Screenshot_20240426_102733.jpg">
+</div>
+</div>
+</section>
+<section id="main">
+<div class="main-contact">
+    <div class ="main-text">
+        <span> ABOUT ME</span>
+        <h1>Hello I'm Diana Ebrahim </h1>
+        <p1>bachelor of science information technology, from tukanalipao<br mamasapano Maguindanao del sur, Studied At Gani L. Abpi college incorporated, <br>as of now I'm trying my best to improve my skills <br>for programming and im trying to master the Microsoft <br>office and html, css and also java</p1>
+       
+        
+        <div class="main-image">
+        <div class="image-card">
+            <img src="/storage/emulated/0/Android/IMG_20230221_095141_339.jpg">
+        
+    </div>
+    </div>
+</div>
+</section>
+<section class="service="id="skills">
+            <h2 class="heading">our <span>skills </span></h2>
+            <div class="service-content">
+                <div class="service-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>HTML</h3>
+                    <p> i started learning html on second<br> year college college second sem</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+                
+                <div class="service-box">
+                    <i class='bx bx-devices'></i>
+                    <h3>CSS</h3>
+                    <p> i learned css in second year college <br>second sem and</p>
+                    <a href="#"class="btn">Read More</a>
+                </div>
+                <div class="service-box">
+                    <i class='bx box-desktop'></i>
+                    <h3>C++</h3>
+                    <p> i learned c++ during first year second <br>sem</p>
+                    <a href="#"class="btn">Read More</a>
+                
+            </div>
+            <div class="testimonials"id="testimonial">
+        <div class="inner">
+            <h5>TESTIMONIALS</h5>
+            <div class="border"></div>
+          
+         <div class="row">
+             <div class="col">
+               <div class="testimonial">
+                <img src="/storage/emulated/0/Android/images.png" alt="">        
+                <div class="name">HTML</div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                             
+                        </div>
+                        <p>HTML Tutorial ... HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!</p>
+                        </div>
+                        </div>
+        
+          
+         
+             <div class="col">
+               <div class="testimonial">
+                <img src="/storage/emulated/0/Android/1200px-CSS3_logo_and_wordmark.svg.png" alt="">        
+                <div class="name">CSS</div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i> 
+                      <i class="far fa-star"></i>
+                    
+                </div>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML ... </p>
+                </div>
+                </div>
+         
+             <div class="col">
+               <div class="testimonial">
+                <img src="/storage/emulated/0/Android/JavaScript-Logo.png" alt="">        
+                <div class="name">JAVA</div>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+            </div>
+            <p>JavaScript.com is a resource for the JavaScript community. You will find resources and examples for JavaScript beginners as well as support for JavaScript ... </p>
+        </div>
+    </div> 
+        
+            </section>
+            
+    </section>
+    <section class="contact"id="contact">
+        <h2 class="heading">contact <span>me</span></h2>
+        <form action="">
+            <div class="input-box">
+             <input type="number"placeholder="full-name">
+ <input type="email" placeholder="email">
+ </div>
+ 
+  <div class="input-box">   
+              <input type="number"placeholder="mobile-number">
+ <input type="email" placeholder="email-subject">
+ </div>
+ 
+ <textarea name=""id=""cols="30"rows="30"placeholder="your message"></textarea>
+ <button id="btn1">send</button>
+ 
+    
+    
+                            
+      </form>
+    </section>
+  
+</body>
+</html>
